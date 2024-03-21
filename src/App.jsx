@@ -7,8 +7,8 @@ import Main from './components/Main.jsx';
 function App() {
 	return (
 		<AuthContextProvider>
+			<Navigation />
 			<Wrapper>
-				<Navigation />
 				<LogIn />
 				<Main />
 			</Wrapper>

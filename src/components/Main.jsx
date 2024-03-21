@@ -13,7 +13,7 @@ const Main = () => {
 	};
 
 	if (existingRecipe) {
-		return <Recipe meal={existingRecipe} resetRecipes={handleResetRecipes} />;
+		return <Recipe recipe={existingRecipe} resetRecipes={handleResetRecipes} />;
 	}
 
 	return (

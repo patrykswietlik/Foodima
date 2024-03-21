@@ -6,7 +6,7 @@ const Navigation = () => {
 	const authCtx = useContext(AuthenticationContext);
 
 	return (
-		<nav className='py-4 flex items-center justify-between'>
+		<nav className='w-full max-w-7xl mx-auto px-4 py-4 flex items-center justify-between bg-white text-black'>
 			<div className='flex items-center gap-32'>
 				<h1 className='font-extrabold text-xl'>Foodima</h1>
 				<div className='flex gap-8'>

@@ -3,7 +3,7 @@ import img from '../assets/meal-default.jpg';
 const Meal = ({ meal, selectMeal }) => {
 	return (
 		<li
-			className='w-72 h-64 overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer'
+			className='w-72 h-64 overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer bg-white text-black'
 			onClick={() => {
 				selectMeal(meal.id);
 			}}>
@@ -15,10 +15,10 @@ const Meal = ({ meal, selectMeal }) => {
 				</div>
 				<div>
 					<p className='flex justify-between items-center'>
-						<span className='font-bold text-amber-600 text-sm'>
+						<span className='font-bold text-e-yellow text-sm'>
 							{meal.rating}/5 <i className='fa-solid fa-star'></i>
 						</span>
-						<span className='text-stone-600 text-sm'>{meal.author}</span>
+						<span className='text-e-grey text-sm'>{meal.author}</span>
 					</p>
 				</div>
 			</div>
