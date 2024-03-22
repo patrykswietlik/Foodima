@@ -27,6 +27,5 @@ body {
 	min-height: 100vh;
 	line-height: 1;
 	text-rendering: optimizeSpeed;
-	background: url('./assets/WaveLine.svg');
-	background-size: cover;
+	background: url('./assets/Sprinkle.svg');
 }

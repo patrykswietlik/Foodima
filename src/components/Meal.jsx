@@ -3,7 +3,7 @@ import img from '../assets/meal-default.jpg';
 const Meal = ({ meal, selectMeal }) => {
 	return (
 		<li
-			className='w-72 h-64 overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer bg-white text-black'
+			className='w-full h-64 sm:w-5/12 lg:w-72 overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer bg-white text-black border-2 border-e-gray'
 			onClick={() => {
 				selectMeal(meal.id);
 			}}>
