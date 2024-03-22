@@ -6,5 +6,5 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-![Uploading image.png…]()
+![image](https://github.com/patrykswietlik/Foodima/assets/114610438/d9857e2b-6386-4e4b-b76c-e7960ceb21e5)
 
